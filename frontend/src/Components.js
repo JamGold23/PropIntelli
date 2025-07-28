@@ -126,7 +126,7 @@ export const HeroSearch = ({ darkMode }) => {
             <div className="flex">
               <input
                 type="text"
-                placeholder="Enter an address, neighborhood, city, or ZIP code"
+                placeholder="Try: '3-bedroom house near good schools under $800k' - Natural language search powered by AI"
                 value={searchValue}
                 onChange={(e) => setSearchValue(e.target.value)}
                 className="flex-1 px-4 py-3 text-lg border-none outline-none rounded-l-lg"
