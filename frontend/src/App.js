@@ -203,6 +203,66 @@ const Home = () => {
           </div>
         </div>
 
+        {/* AI Insights Section */}
+        <div className="mt-16">
+          <h2 className={`text-2xl font-bold mb-6 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+            🤖 AI-Powered Market Insights
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+              <div className="flex items-center mb-2">
+                <span className="text-2xl mr-2">📈</span>
+                <h3 className={`font-semibold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                  Price Prediction
+                </h3>
+              </div>
+              <p className="text-3xl font-bold text-green-600 mb-2">+12.5%</p>
+              <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+                Expected growth next 12 months
+              </p>
+            </div>
+            
+            <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+              <div className="flex items-center mb-2">
+                <span className="text-2xl mr-2">🎯</span>
+                <h3 className={`font-semibold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                  Best Time to Buy
+                </h3>
+              </div>
+              <p className="text-3xl font-bold text-blue-600 mb-2">Now</p>
+              <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+                Market conditions favorable
+              </p>
+            </div>
+            
+            <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+              <div className="flex items-center mb-2">
+                <span className="text-2xl mr-2">🏘️</span>
+                <h3 className={`font-semibold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                  Hottest Neighborhood
+                </h3>
+              </div>
+              <p className="text-xl font-bold text-purple-600 mb-2">Santa Monica</p>
+              <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+                +15% search volume this month
+              </p>
+            </div>
+            
+            <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+              <div className="flex items-center mb-2">
+                <span className="text-2xl mr-2">⚡</span>
+                <h3 className={`font-semibold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                  AI Confidence
+                </h3>
+              </div>
+              <p className="text-3xl font-bold text-orange-600 mb-2">94%</p>
+              <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+                Market analysis accuracy
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Featured Neighborhoods */}
         <div className="mt-16">
           <h2 className={`text-2xl font-bold mb-6 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
