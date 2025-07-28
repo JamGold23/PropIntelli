@@ -340,11 +340,11 @@ export const Footer = ({ darkMode }) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <div className="bg-blue-600 text-white px-2 py-1 rounded font-bold text-xl">Z</div>
-              <span className={`ml-2 text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>illow</span>
+              <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 py-1 rounded-lg font-bold text-xl">PI</div>
+              <span className={`ml-2 text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>ropIntelli</span>
             </div>
             <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              The leading real estate marketplace. Search millions of for-sale and rental listings.
+              The intelligent real estate marketplace. Search millions of for-sale and rental listings with AI-powered insights.
             </p>
           </div>
           
