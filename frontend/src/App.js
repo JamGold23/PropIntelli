@@ -150,8 +150,10 @@ const Home = () => {
               className={`px-4 py-2 border rounded-lg ${darkMode ? 'bg-gray-700 border-gray-600 text-white' : 'bg-white border-gray-300'}`}
             >
               <option value="newest">Newest</option>
+              <option value="ai-recommended">🤖 AI Recommended</option>
               <option value="price-low">Price (Low to High)</option>
               <option value="price-high">Price (High to Low)</option>
+              <option value="smart-match">Smart Match Score</option>
               <option value="beds">Bedrooms</option>
               <option value="baths">Bathrooms</option>
               <option value="sqft">Square Feet</option>
