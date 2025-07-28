@@ -378,7 +378,7 @@ export const Footer = ({ darkMode }) => {
         
         <div className={`mt-8 pt-8 border-t ${darkMode ? 'border-gray-700' : 'border-gray-300'}`}>
           <p className={`text-sm text-center ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-            © 2025 Zillow Clone. All rights reserved. This is a replica for demonstration purposes.
+            © 2025 PropIntelli. All rights reserved. Intelligent real estate powered by AI.
           </p>
         </div>
       </div>
