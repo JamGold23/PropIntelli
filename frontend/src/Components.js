@@ -141,9 +141,10 @@ export const HeroSearch = ({ darkMode }) => {
 
           {/* Quick Links */}
           <div className="flex justify-center mt-6 space-x-6 text-white">
+            <button className="hover:underline text-sm">🤖 AI Recommendations</button>
             <button className="hover:underline text-sm">Price reduced</button>
             <button className="hover:underline text-sm">Open houses</button>
-            <button className="hover:underline text-sm">New construction</button>
+            <button className="hover:underline text-sm">Smart Neighborhoods</button>
             <button className="hover:underline text-sm">Coming soon</button>
           </div>
         </div>
