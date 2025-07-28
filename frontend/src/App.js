@@ -15,7 +15,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1511452885600-a3d2c9148a31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxob3VzZSUyMGV4dGVyaW9yfGVufDB8fHxibHVlfDE3NTM2MTU3NjV8MA&ixlib=rb-4.1.0&q=85",
     status: "New",
     rating: 4.8,
-    agent: "Sarah Johnson, RE/MAX"
+    agent: "Sarah Johnson, RE/MAX",
+    aiScore: 92
   },
   {
     id: 2,
@@ -27,7 +28,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1704143611270-c652643c9b2f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwzfHxob3VzZSUyMGV4dGVyaW9yfGVufDB8fHxibHVlfDE3NTM2MTU3NjV8MA&ixlib=rb-4.1.0&q=85",
     status: null,
     rating: 4.6,
-    agent: "Michael Chen, Coldwell Banker"
+    agent: "Michael Chen, Coldwell Banker",
+    aiScore: 88
   },
   {
     id: 3,
@@ -39,7 +41,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1655025074116-119793238a0f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHxob3VzZSUyMGV4dGVyaW9yfGVufDB8fHxibHVlfDE3NTM2MTU3NjV8MA&ixlib=rb-4.1.0&q=85",
     status: "Price Drop",
     rating: 4.9,
-    agent: "Jennifer Lopez, Compass"
+    agent: "Jennifer Lopez, Compass",
+    aiScore: 95
   },
   {
     id: 4,
@@ -51,7 +54,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1555636222-cae831e670b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlfGVufDB8fHxibHVlfDE3NTM2MTU3NzB8MA&ixlib=rb-4.1.0&q=85",
     status: null,
     rating: 4.7,
-    agent: "David Wilson, Keller Williams"
+    agent: "David Wilson, Keller Williams",
+    aiScore: 87
   },
   {
     id: 5,
@@ -63,7 +67,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxyZWFsJTIwZXN0YXRlfGVufDB8fHxibHVlfDE3NTM2MTU3NzB8MA&ixlib=rb-4.1.0&q=85",
     status: "Open House",
     rating: 4.5,
-    agent: "Emily Davis, Century 21"
+    agent: "Emily Davis, Century 21",
+    aiScore: 82
   },
   {
     id: 6,
@@ -75,7 +80,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1532495142380-2f10c263c93d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxyZWFsJTIwZXN0YXRlfGVufDB8fHxibHVlfDE3NTM2MTU3NzB8MA&ixlib=rb-4.1.0&q=85",
     status: "Luxury",
     rating: 5.0,
-    agent: "Robert Thompson, Sotheby's"
+    agent: "Robert Thompson, Sotheby's",
+    aiScore: 98
   },
   {
     id: 7,
@@ -87,7 +93,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1567016251318-c85cc6f139c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHw0fHxyZWFsJTIwZXN0YXRlfGVufDB8fHxibHVlfDE3NTM2MTU3NzB8MA&ixlib=rb-4.1.0&q=85",
     status: null,
     rating: 4.4,
-    agent: "Amanda Rodriguez, Redfin"
+    agent: "Amanda Rodriguez, Redfin",
+    aiScore: 85
   },
   {
     id: 8,
@@ -99,7 +106,8 @@ const mockProperties = [
     image: "https://images.unsplash.com/photo-1511452885600-a3d2c9148a31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxob3VzZSUyMGV4dGVyaW9yfGVufDB8fHxibHVlfDE3NTM2MTU3NjV8MA&ixlib=rb-4.1.0&q=85",
     status: "Coming Soon",
     rating: 4.8,
-    agent: "Kevin Park, Berkshire Hathaway"
+    agent: "Kevin Park, Berkshire Hathaway",
+    aiScore: 91
   }
 ];
 
