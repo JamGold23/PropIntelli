@@ -12,8 +12,8 @@ export const Header = ({ darkMode, setDarkMode }) => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="flex items-center">
-                <div className="bg-blue-600 text-white px-2 py-1 rounded font-bold text-xl">Z</div>
-                <span className={`ml-2 text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>illow</span>
+                <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 py-1 rounded-lg font-bold text-xl">PI</div>
+                <span className={`ml-2 text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>ropIntelli</span>
               </div>
             </div>
           </div>
