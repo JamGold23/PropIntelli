@@ -128,11 +128,14 @@ select:focus {
   }
 }
 
-/* Zillow-specific brand colors */
+/* PropIntelli-specific brand colors */
 :root {
-  --zillow-blue: #006aff;
-  --zillow-blue-dark: #0056cc;
-  --zillow-blue-light: #4d94ff;
-  --zillow-gray: #f7f8f9;
-  --zillow-gray-dark: #e6e8ea;
+  --propintelli-blue: #006aff;
+  --propintelli-blue-dark: #0056cc;
+  --propintelli-blue-light: #4d94ff;
+  --propintelli-purple: #7c3aed;
+  --propintelli-purple-dark: #6d28d9;
+  --propintelli-purple-light: #a78bfa;
+  --propintelli-gray: #f7f8f9;
+  --propintelli-gray-dark: #e6e8ea;
 }
