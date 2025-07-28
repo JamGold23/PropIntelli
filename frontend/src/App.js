@@ -118,7 +118,8 @@ const Home = () => {
         {/* Results Header */}
         <div className="flex items-center justify-between mb-6">
           <div className={`text-lg ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-            <span className="font-semibold">2,547</span> homes for sale in Los Angeles, CA
+            <span className="font-semibold">2,547</span> intelligent matches in Los Angeles, CA
+            <div className="text-sm text-blue-600 mt-1">🤖 AI-powered search results</div>
           </div>
           
           <div className="flex items-center space-x-4">
